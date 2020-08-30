@@ -10,3 +10,13 @@ sum.onClick = function (){
     console.log(Number(odin) + Number(freya))
     var thor = document.getElementById("answer").textContent
 }
+
+
+
+
+
+
+
+function FillBilling(f) {
+    if (f.billingtoo.checked)
+}
