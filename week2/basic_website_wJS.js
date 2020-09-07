@@ -1,12 +1,12 @@
-// let nav = document.createElement("ol")
-// document.body.append(ol)
+let nav = document.createElement("ol")
+document.body.append(nav)
 
-// let  li4 = document.createElement("li")
-// li.textContent = "link 1"
+let  li4 = document.createElement("li")
+li4.textContent =  /* <a href="">link1</a> */ "link2"
 
-// let  li5 = document.createElement("li")
-// li2.textContent = "link 2"
-// ol.append(li4, li5)
+let  li5 = document.createElement("li")
+li5.textContent = /* <a href="">link2</a> */ "link1"
+nav.append(li4, li5)
 
 
 
