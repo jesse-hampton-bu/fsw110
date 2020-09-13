@@ -1,11 +1,11 @@
- var h1 = document.createElement("h1")
+ let h1 = document.createElement("h1")
 h1.textContent = "Hello World"
 document.body.append(h1)
 
 
- function uthrid (){
-    for (var i = 0; i < 10; i++){
-        var h1 = document.createElement("h1")
+ function repeatTenTimes (){
+    for (let i = 0; i < 10; i++){
+        let h1 = document.createElement("h1")
         h1.textContent = "Hello World"
         h1.style.color = "red"
         document.body.append(h1)
@@ -13,21 +13,18 @@ document.body.append(h1)
     }
 }
 
-uthrid()
+repeatTenTimes()
 
 const names = ["steve", "larry", "joe", "shirley", "steph", "nate", "rick", "emily"]
 
-function ubba (){
+function listNames (){
     for (i = 0; i < names.length; i++){
-        console.log(names[i])
-        var storri =  document.createElement("p")
-        storri.textContent = names[i]
-        document.body.append(storri)
-       
-
+        let listItems =  document.createElement("p")
+        listItems.textContent = names[i]
+        document.body.append(listItems)
     }
 
 }
 
-ubba()
+listNames()
 

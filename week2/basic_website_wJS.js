@@ -1,4 +1,4 @@
-let nav = document.createElement("ol")
+let nav = document.createElement("nav")
 document.body.append(nav)
 
 let  li4 = document.createElement("li")
