@@ -3,9 +3,11 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="plane.css">
         <title>AirLine services</title>
 </head>
 <body>
+        <h1>Passenger Information</h1>
        <form action="#" name="passengerinfo">
                <label for="fname"><b>First Name:</b></label><br>
                <input type="text" id="fname" name="fname" required><br>
@@ -25,12 +27,11 @@
                        city 5 : <option value="Pheonix">Pheonix</option>
                        city 6 : <option value="San Francisco">San Francisco</option>
                </select><br>
-               <!-- <b>Dietary Restrictions:</b> <br> -->
                <label for="dietaryrestrictions"><b>Dietary Restrictions</b></label>
-               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions">Vegetarian: 
-               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions">Kosher: 
-               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions">Lactose Intolerant: 
-               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions">None: <br>
+               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions" value="vegetarian">Vegetarian: 
+               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions" value="Kosher">Kosher: 
+               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions" value="Lactose Intolerant">Lactose Intolerant: 
+               <input type="checkbox" id="dietaryrestrictions" name="dietaryrestrictions" value="none">None: <br>
                <input type="submit" value="submit" onclick="myFunction()"> 
                
        </form> 
